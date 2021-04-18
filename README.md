@@ -18,6 +18,7 @@ $ sudo apt-get install ffmpeg
  
  TO get the output run 
  
- $ python3 autosub/main.py --model /home/AutoSub/deepspeech-0.9.3-models.pbmm --scorer /home/AutoSub/deepspeech-0.9.3-models.scorer --file ~/movie.mp4
+ $ python3 generator/main.py --model /home/koushik/CaptionGenerator/deepspeech-0.9.3-models.pbmm --scorer /home/koushik/CaptionGenerator/deepspeech-0.9.3-models.scorer --file /home/koushik/CaptionGenerator/video.mp4
 
-movie.mp4 is the input video and output is stored in output folder in STR format
+
+video.mp4 is the input video and output is stored in output folder in STR format
